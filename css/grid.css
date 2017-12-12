@@ -6,6 +6,7 @@ p,
 a{
 	font-family:"clear_sans_mediumregular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size:18px;
+	color:#011627;
 }
 
 .row::after{
