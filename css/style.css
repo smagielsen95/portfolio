@@ -70,7 +70,8 @@ button.donate:hover{
 .overlay{
 	height:400px;
 	width:100%;
-	background-color:#e9eadf;
+	background-color:#EBF8FA;
+	text-align:center;
 }
 
 .overlay-form{
