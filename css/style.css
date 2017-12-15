@@ -56,6 +56,14 @@ button.donate:hover{
     text-align:center;
 }
 
+.text-block{
+    background: white;
+    height:300px;
+    padding:5px;
+    margin-top:15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)!important;
+}
+
 
 .parallax-3{
 	background-image: url("../images/background-3.jpg");
