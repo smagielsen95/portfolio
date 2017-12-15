@@ -5,14 +5,16 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
 }
 
 img{
 	width:220px;
 	height:201px;
-	margin-top:20px;
+    margin: auto;
+    position: absolute;
+    top: 30px; left: 0; right: 0;
 }
-
 
 .parallax-2{
 	background-image: url("../images/background-2.jpg");
@@ -21,15 +23,48 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
 }
+
+button.donate{
+    width:150px;
+    height:50px;
+    margin: auto;
+	position: absolute;
+	top: 50%; left: 0; right: 0;
+	border-radius:4px;
+	padding:2px;
+	font-family:"clear_sans_mediumregular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:16px;
+    background:#AECAD6;
+    border:none;
+}
+
+button.donate:hover{
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    cursor:pointer;
+}
+
+.fade-in{
+    color:white;
+    font-size:60px;
+    font-family:"clear_sans_mediumregular", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin: auto;
+    position: absolute;
+    left: 0; bottom: 50%; right: 0;
+    text-align:center;
+}
+
 
 .parallax-3{
 	background-image: url("../images/background-3.jpg");
-    min-height: 650px; 
+    min-height: 445px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
 }
 
 .overlay{
