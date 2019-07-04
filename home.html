@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style/grid.css">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/v4-shims.css">
+<script src="javascript/Filter.js"></script>
+</head>
+<body>
+
+<div class ="nav-bar row right">
+  <ul>
+    <li><a class="nav-bar" href="#home">Home</a></li>
+    <li><a class="nav-bar" href="#news">News</a></li>
+    <li><a class="nav-bar" href="#contact">Contact</a></li>
+    <li><a class="nav-bar" href="#about">About</a></li>
+  </ul>
+</div>
+
+<div class="container row">
+  <div class ="width-1-4 gap-small card">
+      <div class="card-image center"></div>
+      <p class="card-H1">Card Title</p>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+  </div>
+  <div class ="width-1-4 gap-small card">
+      <div class="card-image center"></div>
+      <p class="card-H1">Card Title</p>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+  </div>
+  <div class ="width-1-4 gap-small card">
+      <div class="card-image center"></div>
+      <p class="card-H1">Card Title</p>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+  </div>
+  <div class ="width-1-4 card">
+      <div class="card-image center"></div>
+      <p class="card-H1">Card Title</p>
+      <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+  </div>
+</div>
+
+<div class="container row">
+<div class="width-1-4">
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Calligraphy')"> Calligraphy</button>
+  <button class="btn" onclick="filterSelection('Website')"> Website</button>
+</div>
+</div>
+
+<div class="width-3-4">
+  <div class ="width-1-6 gap-small filterDiv Calligraphy show">Calligraphy</div>
+  <div class ="width-1-6 gap-small filterDiv Website show">Website</div>
+  <div class ="width-1-6 gap-small filterDiv Website show">Website</div>
+  <div class ="width-1-6 gap-small filterDiv Calligraphy show">Calligraphy</div>
+  <div class ="width-1-6 gap-small filterDiv Website show">Website</div>
+  <div class ="width-1-6 filterDiv Calligraphy show">Calligraphy</div>
+</div>
+</div>
+
+  <form action="/action_page.php">
+
+      <label for="fname">First name and last name</label>
+      <input class="width-1-5" type="text" required id="fname" name="firstname" placeholder="Your name..">
+      <input class="width-1-5" type="text" required id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="fname">E-mail</label>
+      <input class="width-2-5" type="text" required id="email" name="email" placeholder="Your email..">
+
+      <label for="country">Country</label>
+      <select class="width-3-5" id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+    <button class="button button-submit">Submit</button>
+  </form>
+
+
+<footer></footer>
+</body>
+</html>
